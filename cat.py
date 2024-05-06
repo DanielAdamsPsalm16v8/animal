@@ -53,6 +53,10 @@ class Cat(Animal):
     def reproduce(self):
         ragdoll = Cat(10,0,10,True,0)
         return ragdoll
+    
+bobby = Cat(10,25,1000,True, 0)
+speach = bobby.talk(5)
+print(speach)
 
 
     
